@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		273559792DAF6E8300F00EC9 /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = 273559782DAF6E8300F00EC9 /* CachedAsyncImage */; };
+		273559D12DB0259800F00EC9 /* Secrets.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 273559D02DB0259800F00EC9 /* Secrets.xcconfig */; };
+		27BB71B32DADA22C008CA159 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 27BB71B22DADA22C008CA159 /* FirebaseAnalytics */; };
+		27BB71CC2DADAB78008CA159 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 27BB71CB2DADAB78008CA159 /* FirebaseAuth */; };
+		27BB71E62DADC783008CA159 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 27BB71E52DADC783008CA159 /* FirebaseFirestore */; };
+		27BB72E02DAF03F0008CA159 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 27BB72DF2DAF03F0008CA159 /* FirebaseStorage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		273559D02DB0259800F00EC9 /* Secrets.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Secrets.xcconfig; sourceTree = "<group>"; };
+		27BB719E2DAD9FC9008CA159 /* Trailbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trailbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		273559D32DB0260900F00EC9 /* Exceptions for "Trailbook" folder in "Trailbook" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 27BB719D2DAD9FC9008CA159 /* Trailbook */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		27BB71A02DAD9FC9008CA159 /* Trailbook */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				273559D32DB0260900F00EC9 /* Exceptions for "Trailbook" folder in "Trailbook" target */,
+			);
+			path = Trailbook;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27BB719B2DAD9FC9008CA159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BB71B32DADA22C008CA159 /* FirebaseAnalytics in Frameworks */,
+				273559792DAF6E8300F00EC9 /* CachedAsyncImage in Frameworks */,
+				27BB72E02DAF03F0008CA159 /* FirebaseStorage in Frameworks */,
+				27BB71CC2DADAB78008CA159 /* FirebaseAuth in Frameworks */,
+				27BB71E62DADC783008CA159 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27BB71952DAD9FC9008CA159 = {
+			isa = PBXGroup;
+			children = (
+				273559D02DB0259800F00EC9 /* Secrets.xcconfig */,
+				27BB71A02DAD9FC9008CA159 /* Trailbook */,
+				27BB71CA2DADAB78008CA159 /* Frameworks */,
+				27BB719F2DAD9FC9008CA159 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27BB719F2DAD9FC9008CA159 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27BB719E2DAD9FC9008CA159 /* Trailbook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27BB71CA2DADAB78008CA159 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27BB719D2DAD9FC9008CA159 /* Trailbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BB71AC2DAD9FD5008CA159 /* Build configuration list for PBXNativeTarget "Trailbook" */;
+			buildPhases = (
+				27BB719A2DAD9FC9008CA159 /* Sources */,
+				27BB719B2DAD9FC9008CA159 /* Frameworks */,
+				27BB719C2DAD9FC9008CA159 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				27BB71A02DAD9FC9008CA159 /* Trailbook */,
+			);
+			name = Trailbook;
+			packageProductDependencies = (
+				27BB71B22DADA22C008CA159 /* FirebaseAnalytics */,
+				27BB71CB2DADAB78008CA159 /* FirebaseAuth */,
+				27BB71E52DADC783008CA159 /* FirebaseFirestore */,
+				27BB72DF2DAF03F0008CA159 /* FirebaseStorage */,
+				273559782DAF6E8300F00EC9 /* CachedAsyncImage */,
+			);
+			productName = Trailbook;
+			productReference = 27BB719E2DAD9FC9008CA159 /* Trailbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27BB71962DAD9FC9008CA159 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					27BB719D2DAD9FC9008CA159 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 27BB71992DAD9FC9008CA159 /* Build configuration list for PBXProject "Trailbook" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27BB71952DAD9FC9008CA159;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				27BB71B12DADA22C008CA159 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				273559772DAF6E8300F00EC9 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 27BB719F2DAD9FC9008CA159 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27BB719D2DAD9FC9008CA159 /* Trailbook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27BB719C2DAD9FC9008CA159 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273559D12DB0259800F00EC9 /* Secrets.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27BB719A2DAD9FC9008CA159 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27BB71AA2DAD9FD5008CA159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273559D02DB0259800F00EC9 /* Secrets.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27BB71AB2DAD9FD5008CA159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273559D02DB0259800F00EC9 /* Secrets.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27BB71AD2DAD9FD5008CA159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273559D02DB0259800F00EC9 /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Trailbook/Trailbook.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trailbook/Preview Content\"";
+				DEVELOPMENT_TEAM = RT6BKQS2NA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trailbook/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Trailbook uses HealthKit to log your daily steps";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tcb.Trailbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27BB71AE2DAD9FD5008CA159 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273559D02DB0259800F00EC9 /* Secrets.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Trailbook/Trailbook.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trailbook/Preview Content\"";
+				DEVELOPMENT_TEAM = RT6BKQS2NA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Trailbook/Info.plist;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Trailbook uses HealthKit to log your daily steps";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tcb.Trailbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27BB71992DAD9FC9008CA159 /* Build configuration list for PBXProject "Trailbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BB71AA2DAD9FD5008CA159 /* Debug */,
+				27BB71AB2DAD9FD5008CA159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BB71AC2DAD9FD5008CA159 /* Build configuration list for PBXNativeTarget "Trailbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BB71AD2DAD9FD5008CA159 /* Debug */,
+				27BB71AE2DAD9FD5008CA159 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		273559772DAF6E8300F00EC9 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+		27BB71B12DADA22C008CA159 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		273559782DAF6E8300F00EC9 /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 273559772DAF6E8300F00EC9 /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+		27BB71B22DADA22C008CA159 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27BB71B12DADA22C008CA159 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		27BB71CB2DADAB78008CA159 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27BB71B12DADA22C008CA159 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		27BB71E52DADC783008CA159 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27BB71B12DADA22C008CA159 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		27BB72DF2DAF03F0008CA159 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27BB71B12DADA22C008CA159 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 27BB71962DAD9FC9008CA159 /* Project object */;
+}
